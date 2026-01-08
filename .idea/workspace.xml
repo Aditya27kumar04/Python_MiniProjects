@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bb3ade8-113a-4557-9ee1-10e2351e3964" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Rock_Paper_Scissors_Game/Rock Paper and Scissors Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0bb3ade8-113a-4557-9ee1-10e2351e3964" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +181,7 @@
       <workItem from="1767873241715" duration="935000" />
       <workItem from="1767874209139" duration="2851000" />
       <workItem from="1767883599168" duration="1874000" />
-      <workItem from="1767885683839" duration="4533000" />
+      <workItem from="1767885683839" duration="5033000" />
     </task>
     <servers />
   </component>

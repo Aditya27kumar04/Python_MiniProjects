@@ -29,7 +29,7 @@ game_images = [Rock,Paper,Scissors]
 
 user_choice = int(input("What do you choose? Type 0 for Rock,1 for Paper and 2 for Scissors.\n"))
 
-if user_choice >=0 and user_choice <=2:
+if 0 <= user_choice <= 2:
     print(game_images[user_choice])
 computer_choice = random.randint(0,2)
 print("computer chose:")
