@@ -1,16 +1,102 @@
-# This is a sample Python script.
+import random
+Stages = ['''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''', r'''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+word_list = ('ant baboon badger bat bear beaver camel cat clam cobra cougar '
+         'coyote crow deer dog donkey duck eagle ferret fox frog goat '
+         'goose hawk lion lizard llama mole monkey moose mouse mule newt '
+         'otter owl panda parrot pigeon python rabbit ram rat raven '
+         'rhino salmon seal shark sheep skunk sloth snake spider '
+         'stork swan tiger toad trout turkey turtle weasel whale wolf '
+         'wombat zebra ').split()
+
+lives = 6
+chosen_word = random.choice(word_list)
+print(chosen_word)
+
+placeholder = ""
+for position in range(0,len(chosen_word)):
+    placeholder += "_"
+print(placeholder)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+game_over = False
+correct_letters = []
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+while not game_over:
+    guess = input("Guess a letter: ").lower()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+    display = ""
+
+    for letter in chosen_word:
+        if letter == guess:
+            display += letter
+            correct_letters.append(guess)
+        elif letter in correct_letters:
+            display += letter
+        else:
+            display += "_"
+
+    print(display)
+if guess not in chosen_word:
+    lives -= 1
+    if lives == 0:
+        game_over = True
+        print("You Lose!")
+if "_" not in display:
+    game_over = True
+    print("You Win!")
+
+
+print(Stages[lives])
