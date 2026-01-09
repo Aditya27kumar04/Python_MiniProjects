@@ -95,7 +95,7 @@ while not game_over:
         print(f"The word was: {chosen_word}")
         game_over = True
 
-    # Guessed word?
+    # Guessed word
     if "_" not in display:
         print("You Win!")
         game_over = True
