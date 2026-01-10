@@ -7,7 +7,7 @@ from Hangman_words import word_list
 print(logo)
 
 chosen_word = random.choice(word_list)
-print(f" The word is: {chosen_word}")
+# print(f" The word is: {chosen_word}")
 
 correct_letters = []
 lives = 6

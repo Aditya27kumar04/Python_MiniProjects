@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb3ade8-113a-4557-9ee1-10e2351e3964" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hangman_Game/Hangman_ASCII_ARTS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hangman_Game/Hangman_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hangman_Game/Hangman Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman_Game/Hangman Project.py" afterDir="false" />
     </list>
@@ -190,7 +188,10 @@
       <workItem from="1767885683839" duration="7202000" />
       <workItem from="1767931937037" duration="4905000" />
       <workItem from="1767961652446" duration="26000" />
-      <workItem from="1767961736574" duration="9491000" />
+      <workItem from="1767961736574" duration="10141000" />
+      <workItem from="1767978479642" duration="2268000" />
+      <workItem from="1768021137652" duration="902000" />
+      <workItem from="1768035771154" duration="367000" />
     </task>
     <servers />
   </component>
@@ -200,7 +201,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Project$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1767884765862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Project$Rock_Paper_and_Scissors_Game.coverage" NAME="Rock Paper and Scissors Game Coverage Results" MODIFIED="1767892652630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Project$Hangman_Project.coverage" NAME="Hangman Project Coverage Results" MODIFIED="1767975132953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1767971800567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Project$Hangman_Project.coverage" NAME="Hangman Project Coverage Results" MODIFIED="1767980496357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1767975736593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
