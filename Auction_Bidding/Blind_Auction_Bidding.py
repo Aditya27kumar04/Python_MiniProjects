@@ -3,6 +3,7 @@ print(Auction_Art.logo)
 print("Welcome to The Silent Auction")
 
 
+#Winner of the Bid by finding highest bid.
 
 def find_highest_bidder(bidding_dictionary):
     winner = ""
@@ -18,7 +19,7 @@ def find_highest_bidder(bidding_dictionary):
 
 
 
-
+#Total Number of Bidders.
 
 bids = {}
 
