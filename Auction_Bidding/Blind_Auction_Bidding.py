@@ -2,7 +2,7 @@ import Auction_Art
 print(Auction_Art.logo)
 print("Welcome to The Silent Auction")
 
-#Winner of the Bid by finding highest bid.
+#Winner of the Bid by finding the highest bid.
 
 def find_highest_bidder(bidding_dictionary):
     winner = ""
