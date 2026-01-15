@@ -2,7 +2,6 @@ import Auction_Art
 print(Auction_Art.logo)
 print("Welcome to The Silent Auction")
 
-
 #Winner of the Bid by finding highest bid.
 
 def find_highest_bidder(bidding_dictionary):
@@ -16,13 +15,9 @@ def find_highest_bidder(bidding_dictionary):
 
     print(f"The Winner is {winner} with a bid of ${highest_bid}.")
 
-
-
-
 #Total Number of Bidders.
 
 bids = {}
-
 continue_bidding = True
 while continue_bidding:
     name = input("What is your name?: ")
