@@ -21,7 +21,7 @@ def caesar(original_text, shift_amount, encode_or_decode):
 
 should_continue = True
 while should_continue:
-    direction = input("Type 'encode' to encrypt or 'decode' to decrypt\n").lower()
+    direction = input("Type 'encode' to encrypt or 'decode' to decrypt: \n").lower()
     text = input("Type your message\n")
     shift = int(input("Type the shift number:\n"))
 
