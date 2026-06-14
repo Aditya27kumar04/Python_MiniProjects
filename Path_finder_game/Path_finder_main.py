@@ -8,14 +8,12 @@ choice1 = input("You are at the entrance of a cave. Go Left or Right? ").lower()
 if choice1 == "left":
 
     choice2 = input(
-        "You find an underground river. Swim or Build a Raft? "
-    ).lower()
+        "You find an underground river. Swim or Build a Raft? ").lower()
 
     if choice2 == "raft":
 
         choice3 = input(
-            "You reach a chamber with three doors. Red, Blue, or Green? "
-        ).lower()
+            "You reach a chamber with three doors. Red, Blue, or Green? ").lower()
 
         if choice3 == "green":
             print("Congratulations!")
