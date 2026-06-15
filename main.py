@@ -1,1 +1,26 @@
-print("HI \n" * 1000)
+# from art import logo
+print("Welcome to Higher Lower Game!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
