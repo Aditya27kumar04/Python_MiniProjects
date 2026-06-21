@@ -29,30 +29,32 @@ profit = 0
 resources = {
     "water": 300,
     "milk": 200,
-    "coffee": 100,      # Fixed
+    "coffee": 100,
 }
 
 
 def make_coffee(drink_name, order_ingredients):
     for item in order_ingredients:
         resources[item] -= order_ingredients[item]
-    print(f"Here is your {drink_name} ☕")
+    print(f"☕ Here is your {drink_name}. Enjoy! 😊")
 
 
 def is_resources_sufficient(order_ingredients):
     for item in order_ingredients:
-        if order_ingredients[item] > resources[item]:    # Fixed
-            print(f"Sorry there is not enough {item}.")
+        if order_ingredients[item] > resources[item]:
+            print(f"❌ Sorry there is not enough {item}.")
             return False
-    return True                                          # Fixed indentation
+    return True
 
 
 def process_coins():
-    print("Please insert coins.")
-    total = int(input("How many quarters? ")) * 0.25
-    total += int(input("How many dimes? ")) * 0.10
-    total += int(input("How many nickels? ")) * 0.05     # Fixed
-    total += int(input("How many pennies? ")) * 0.01     # Fixed
+    print("💰 Please insert coins.")
+
+    total = int(input("How many quarters?: ")) * 0.25
+    total += int(input("How many dimes?: ")) * 0.10
+    total += int(input("How many nickels?: ")) * 0.05
+    total += int(input("How many pennies?: ")) * 0.01
+
     return total
 
 
@@ -61,27 +63,30 @@ def is_transaction_successful(money_received, drink_cost):
 
     if money_received >= drink_cost:
         change = round(money_received - drink_cost, 2)
-        print(f"Here is your ${change} in change")
+        print(f"💵 Here is ${change} in change.")
         profit += drink_cost
         return True
     else:
-        print("Sorry that's not enough money. Money refunded")   # Fixed
+        print("❌ Sorry that's not enough money. Money refunded.")
         return False
 
 
 is_on = True
 
 while is_on:
-    choice = input("What would you like? (espresso/latte/cappuccino): ")
+
+    choice = input("\n☕ What would you like? (espresso/latte/cappuccino): ").lower()
 
     if choice == "off":
+        print("🔴 Coffee Machine Turning Off...")
         is_on = False
 
     elif choice == "report":
-        print(f"Water: {resources['water']}ml")
-        print(f"Milk: {resources['milk']}ml")
-        print(f"Coffee: {resources['coffee']}g")      # Fixed
-        print(f"Money: ${profit}")
+        print("\n📋 Machine Report")
+        print(f"💧 Water : {resources['water']}ml")
+        print(f"🥛 Milk  : {resources['milk']}ml")
+        print(f"🫘 Coffee: {resources['coffee']}g")
+        print(f"💰 Money : ${profit}")
 
     else:
         drink = MENU[choice]
