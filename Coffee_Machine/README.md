@@ -1,6 +1,6 @@
 # ☕ Coffee Machine Simulator
 
-A command-line Python application that simulates a coffee vending machine. Users can choose a drink, insert coins, and receive coffee if there are enough resources and payment is successful.
+A command-line Python application that simulates a coffee vending machine. Users can order coffee, insert coins, receive change, and the machine automatically manages its available resources.
 
 ---
 
@@ -9,28 +9,29 @@ A command-line Python application that simulates a coffee vending machine. Users
 * ☕ Order **Espresso**, **Latte**, or **Cappuccino**
 * 💰 Coin-based payment system
 * 💵 Calculates and returns change
-* 📦 Tracks available resources (water, milk, coffee)
-* 📊 Displays machine report
+* 📦 Tracks available resources (water, milk, and coffee)
+* 📊 Displays the current machine report
 * 🚫 Prevents orders when resources are insufficient
-* 🔴 Allows the machine to be turned off
+* 🔴 Turn the machine off using the `off` command
 
 ---
 
 ## 🛠️ Technologies Used
 
 * Python 3
-* Dictionaries
 * Functions
+* Dictionaries
 * Loops
 * Conditional Statements
+* User Input Handling
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-CoffeeMachine/
-│── main.py
+Coffee_Machine/
+├── Coffee_Machine_main.py
 └── README.md
 ```
 
@@ -41,19 +42,19 @@ CoffeeMachine/
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/<your-username>/Python_MiniProjects.git
 ```
 
 2. Navigate to the project folder:
 
 ```bash
-cd CoffeeMachine
+cd Python_MiniProjects/Coffee_Machine
 ```
 
 3. Run the program:
 
 ```bash
-python main.py
+python Coffee_Machine_main.py
 ```
 
 ---
@@ -61,7 +62,7 @@ python main.py
 ## ☕ Available Drinks
 
 | Drink      |  Cost |
-| ---------- | ----: |
+| :--------- | ----: |
 | Espresso   | $1.50 |
 | Latte      | $2.50 |
 | Cappuccino | $3.00 |
@@ -70,10 +71,10 @@ python main.py
 
 ## 💰 Accepted Coins
 
-* Quarter = $0.25
-* Dime = $0.10
-* Nickel = $0.05
-* Penny = $0.01
+* Quarter = **$0.25**
+* Dime = **$0.10**
+* Nickel = **$0.05**
+* Penny = **$0.01**
 
 ---
 
@@ -109,4 +110,4 @@ How many pennies?: 0
 
 ## 🎯 Learning Outcome
 
-This project strengthened my understanding of Python fundamentals by combining functions, dictionaries, loops, and conditional statements to build a real-world command-line application that simulates a coffee vending machine.
+This project helped me strengthen my understanding of Python fundamentals by combining functions, dictionaries, loops, conditional statements, and user input handling to build a real-world command-line coffee vending machine simulation.
