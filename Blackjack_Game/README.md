@@ -26,7 +26,7 @@ A simple command-line Python application that simulates the classic **Blackjack 
 ```text
 Blackjack_Game/
 │
-├── main.py
+├── Blackjack.main.py
 ├── Art.py
 └── README.md
 ```
