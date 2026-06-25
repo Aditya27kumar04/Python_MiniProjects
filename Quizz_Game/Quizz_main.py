@@ -1,0 +1,1 @@
+print("Learnt about class, objects in oops")
